@@ -61,6 +61,7 @@ Scores are stored under `version: "shared"` but are automatically applied to the
 Release Notes
 =============
 v1.5.5
+----------------
  * Added custom playerboard function
 
 v1.5.0
