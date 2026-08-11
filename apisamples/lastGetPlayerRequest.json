@@ -1,0 +1,64 @@
+{
+    "@attr": {
+        "method": "get"
+    },
+    "request_key": {
+        "@attr": {
+            "__type": "str"
+        },
+        "@content": "VQIdWLWH0HjBDBX42AXpCk19MMadZ0zM6EUEcKoU"
+    },
+    "player": {
+        "@attr": {
+            "no": "1"
+        },
+        "refid": {
+            "@attr": {
+                "__type": "str"
+            },
+            "@content": "A59A6D749842E3B8"
+        },
+        "cabid": {
+            "@attr": {
+                "__type": "s32"
+            },
+            "@content": [
+                1
+            ]
+        },
+        "is_rival": {
+            "@attr": {
+                "__type": "bool"
+            },
+            "@content": [
+                0
+            ]
+        },
+        "request": {
+            "kind": {
+                "@attr": {
+                    "__type": "u8"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "offset": {
+                "@attr": {
+                    "__type": "u16"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "music_nr": {
+                "@attr": {
+                    "__type": "u16"
+                },
+                "@content": [
+                    1500
+                ]
+            }
+        }
+    }
+}

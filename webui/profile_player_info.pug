@@ -1,0 +1,237 @@
+//DATA//
+  info: DB.Find(refid, { collection: 'playerinfo' })
+  profile: DB.Find(refid, { collection: 'profile' })
+-
+
+-
+  function getFullGameName(shortName) {
+    switch (shortName) {
+      case "gf":
+        return "GuitarFreaks"
+      case "dm" :
+        return "DrumMania"
+      default:
+        return "Unknown"
+    }
+  }
+
+  function getFullGameVersion(shortVer) {
+    switch (shortVer) {
+      case "re" :
+        return "Tri-Boost Re:EVOLVE"
+      case "matixx":
+        return "Matixx"
+      case "EXCHAIN":
+        return "exchain"
+      case "nextage":
+        return "NEX+AGE"
+      case "highvoltage":
+        return "HIGH-VOLTAGE"
+      case "fuzzup":
+        return "FUZZ-UP"
+      case "galaxywave":
+        return "GALAXY WAVE"
+      case "galaxywave_delta":
+        return "GALAXY WAVE DELTA"
+      default:
+        return "Unknown"
+    }
+  }
+
+  const versionOrder = ["re", "matixx", "exchain", "nextage", "highvoltage", "fuzzup", "galaxywave", "galaxywave_delta"]
+  const gameOrder = ["gf", "dm"]
+
+  // Versions that have either a playerinfo or a profile document, in canonical order.
+  function getVersionsPresent(info, profile) {
+      const present = new Set()
+      for (const i of info) present.add(i.version)
+      for (const p of profile) present.add(p.version)
+      return versionOrder.filter(v => present.has(v))
+  }
+
+-
+  const versionsPresent = getVersionsPresent(info, profile)
+
+mixin boardSlot()
+  .field.is-grouped(data-role="slot")
+    .control
+      .select
+        select(data-role="category-select")
+    .control.is-expanded
+      .select.is-fullwidth
+        select(data-role="item-select")
+    .control
+      .select
+        select(data-role="position-select")
+    .control
+      .select
+        select(data-role="size-select")
+    .control
+      button.button.is-small(data-role="move-up" type="button" title="Move up")
+        span.icon
+          i.mdi.mdi-arrow-up
+    .control
+      button.button.is-small(data-role="move-down" type="button" title="Move down")
+        span.icon
+          i.mdi.mdi-arrow-down
+
+mixin profileCard(pr)
+  .card
+    .card-header
+      p.card-header-title
+        span.icon
+          i.mdi.mdi-account-details
+        | Profile Detail (#{getFullGameName(pr.game)} #{getFullGameVersion(pr.version)})
+    .card-content
+      form(method="post")
+        .field
+          label.label Skill
+          .control
+            input.input(type="text" name="skill", value=(pr.skill/100) readonly)
+        .field
+          label.label Skill (All Songs)
+          .control
+            input.input(type="text" name="all_skill", value=(pr.all_skill/100) readonly)
+        .field
+          label.label Songs Cleared
+          .control
+            input.input(type="text" name="clear_num", value=pr.clear_num readonly)
+        .field
+          label.label Full Combos
+          .control
+            input.input(type="text" name="full_num", value=pr.full_num readonly)
+        .field
+          label.label Excellent Full Combos
+          .control
+            input.input(type="text" name="exce_num", value=pr.exce_num readonly)
+        .field
+          label.label Highest Difficulty Cleared
+          .control
+            input.input(type="text" name="max_clear_diff", value=(pr.max_clear_diff/100) readonly)
+        .field
+          label.label Highest Difficulty Full Combo
+          .control
+            input.input(type="text" name="max_full_diff", value=(pr.max_full_diff/100) readonly)
+        .field
+          label.label Highest Difficulty Excellent Full Combo
+          .control
+            input.input(type="text" name="max_exce_diff", value=(pr.max_exce_diff/100) readonly)
+        .field
+          label.label Sessions
+          .control
+            input.input(type="text" name="session_cnt", value=pr.session_cnt readonly)
+
+link(rel="stylesheet", href="static/css/webui_util.css", type="text/css")
+script(src = "static/js/webui_util.js")
+script(src = "static/js/ajax-form.js")
+script(src = "static/js/stickers-data.js")
+script(src = "static/js/playerboard.js")
+
+if versionsPresent.length == 0
+  p.has-text-grey No profile data available yet.
+else
+  .tabs.is-toggle.is-toggle-rounded.is-small#tabs
+    ul
+      each version, vIdx in versionsPresent
+        li(tab-group="profile-version", tab-index=vIdx, class=(vIdx == 0) ? "is-active" : "")
+          a #{getFullGameVersion(version)}
+
+  each version, vIdx in versionsPresent
+    #tab-content(tab-group="profile-version", tab-index=vIdx, class=(vIdx == 0) ? "is-active" : "")
+      -
+        const infoForVersion = info.find(i => i.version === version)
+        const profilesForVersion = profile
+          .filter(p => p.version === version)
+          .sort((a, b) => gameOrder.indexOf(a.game) - gameOrder.indexOf(b.game))
+
+      if infoForVersion
+        .card
+          .card-header
+            p.card-header-title
+              span.icon
+                i.mdi.mdi-account-edit
+              | User Detail
+          .card-content
+            form.ajax-form(method="post" action="/emit/updatePlayerInfo")
+              .field
+                label.label ID
+                .control
+                  input.input(type="text" name="refid", value=refid readonly)
+              .field
+                label.label Version
+                .control
+                  input.input(type="text" name="version", value=infoForVersion.version readonly)
+              .field
+                label.label Name
+                .control
+                  input.input(type="text" name="name", value=infoForVersion.name)
+              .field
+                label.label Title
+                .control
+                  input.input(type="text" name="title", value=infoForVersion.title)
+              .field.is-grouped.is-align-items-center
+                .control
+                  button.button.is-primary(type="submit")
+                    span.icon
+                      i.mdi.mdi-check
+                    span Submit
+                .control
+                  span.help(data-role="form-status")
+
+      if infoForVersion
+        .card
+          .card-header
+            p.card-header-title
+              span.icon
+                i.mdi.mdi-image-frame
+              | Custom Board (プレーヤーボード)
+          .card-content
+            p.help.
+              Edited here, not in-game — the game client only ever displays the board. The item
+              catalog is generated from this cabinet's own game data (see PLAYERBOARD_DEV_NOTES.md
+              §7), so item names should be accurate. Position is calibrated for the center (●)
+              slot only; the other 14 positions and both sizes are still unverified guesses
+              (see §8) — if you upgrade the game version, re-generate the catalog from the new
+              trbitem-info.xml or item names may drift out of sync.
+            form(method="post" action="/emit/updatePlayerBoard")
+              input(type="hidden" name="refid", value=refid)
+              input(type="hidden" name="version", value=infoForVersion.version)
+              input(type="hidden" name="board" data-role="board-json")
+              .playerboard-editor(data-initial=JSON.stringify({ sheet: infoForVersion.sheet, card: infoForVersion.card }))
+                .field
+                  label.label Background Sheet
+                  .control
+                    .select.is-fullwidth
+                      select(data-role="sheet-select")
+                label.label Stickers (up to 10)
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+                +boardSlot()
+              .field.is-grouped.is-align-items-center
+                .control
+                  button.button.is-primary(type="submit")
+                    span.icon
+                      i.mdi.mdi-check
+                    span Submit
+                .control
+                  span.help(data-role="board-status")
+
+      if profilesForVersion.length > 1
+        .tabs#tabs
+          ul
+            each pr, gIdx in profilesForVersion
+              li(tab-group=("profile-game-" + version), tab-index=gIdx, class=(gIdx == 0) ? "is-active" : "")
+                a #{getFullGameName(pr.game)}
+        each pr, gIdx in profilesForVersion
+          #tab-content(tab-group=("profile-game-" + version), tab-index=gIdx, class=(gIdx == 0) ? "is-active" : "")
+            +profileCard(pr)
+      else
+        each pr in profilesForVersion
+          +profileCard(pr)

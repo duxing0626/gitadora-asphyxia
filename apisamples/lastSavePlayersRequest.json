@@ -1,0 +1,4814 @@
+{
+    "@attr": {
+        "method": "regist"
+    },
+    "gamemode": {
+        "@attr": {
+            "mode": "game_mode"
+        }
+    },
+    "data_version": {
+        "@attr": {
+            "__type": "s32"
+        },
+        "@content": [
+            315
+        ]
+    },
+    "request_key": {
+        "@attr": {
+            "__type": "str"
+        },
+        "@content": "VQIdWLWH0HjBDBX42AXpCk19MMadZ0zM6EUEcKoU"
+    },
+    "locationid": {
+        "@attr": {
+            "__type": "str"
+        },
+        "@content": "ea"
+    },
+    "player": {
+        "@attr": {
+            "card": "use",
+            "no": "1"
+        },
+        "play_mode": {
+            "@attr": {
+                "__type": "s32"
+            },
+            "@content": [
+                11
+            ]
+        },
+        "refid": {
+            "@attr": {
+                "__type": "str"
+            },
+            "@content": "A59A6D749842E3B8"
+        },
+        "charaid": {
+            "@attr": {
+                "__type": "s32"
+            },
+            "@content": [
+                0
+            ]
+        },
+        "used_app_point": {
+            "@attr": {
+                "__type": "s32"
+            },
+            "@content": [
+                0
+            ]
+        },
+        "card_no": {
+            "@attr": {
+                "__type": "str"
+            },
+            "@content": "RJFLHXYJCXL5762P"
+        },
+        "customdata": {
+            "playstyle": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 70
+                },
+                "@content": [
+                    6,
+                    1,
+                    3,
+                    0,
+                    16,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    4,
+                    20,
+                    20,
+                    0,
+                    0,
+                    70,
+                    0,
+                    0,
+                    1,
+                    0,
+                    0,
+                    13,
+                    0,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    3,
+                    1,
+                    1,
+                    1,
+                    1,
+                    1,
+                    2,
+                    1,
+                    2,
+                    1,
+                    2,
+                    0,
+                    0,
+                    0,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    73,
+                    0,
+                    2,
+                    0,
+                    20,
+                    1,
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "custom": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 50
+                },
+                "@content": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "playinfo": {
+            "cabid": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "play": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    4
+                ]
+            },
+            "playtime": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    3070
+                ]
+            },
+            "playterm": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "session_cnt": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    1
+                ]
+            },
+            "matching_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "extra_stage": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    2
+                ]
+            },
+            "extra_play": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "extra_clear": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "encore_play": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "encore_clear": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "pencore_play": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "pencore_clear": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "max_clear_diff": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    895
+                ]
+            },
+            "max_full_diff": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    625
+                ]
+            },
+            "max_exce_diff": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "clear_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    343
+                ]
+            },
+            "full_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    4
+                ]
+            },
+            "exce_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "no_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "e_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "d_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "c_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "b_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "a_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "s_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "ss_num": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "last_category": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    30202
+                ]
+            },
+            "last_musicid": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    2431
+                ]
+            },
+            "last_seq": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    2
+                ]
+            },
+            "disp_level": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            }
+        },
+        "title_parts": {},
+        "secretmusic": {
+            "music": [
+                {
+                    "musicid": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            2981
+                        ]
+                    },
+                    "seq": {
+                        "@attr": {
+                            "__type": "u16"
+                        },
+                        "@content": [
+                            255
+                        ]
+                    },
+                    "kind": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            40
+                        ]
+                    }
+                },
+                {
+                    "musicid": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            2982
+                        ]
+                    },
+                    "seq": {
+                        "@attr": {
+                            "__type": "u16"
+                        },
+                        "@content": [
+                            255
+                        ]
+                    },
+                    "kind": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            40
+                        ]
+                    }
+                },
+                {
+                    "musicid": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            2969
+                        ]
+                    },
+                    "seq": {
+                        "@attr": {
+                            "__type": "u16"
+                        },
+                        "@content": [
+                            255
+                        ]
+                    },
+                    "kind": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            40
+                        ]
+                    }
+                }
+            ]
+        },
+        "tutorial": {
+            "progress": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    3
+                ]
+            },
+            "disp_state": {
+                "@attr": {
+                    "__type": "u32"
+                },
+                "@content": [
+                    15
+                ]
+            }
+        },
+        "information": {
+            "info": {
+                "@attr": {
+                    "__type": "u32",
+                    "__count": 50
+                },
+                "@content": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "reward": {
+            "status": {
+                "@attr": {
+                    "__type": "u32",
+                    "__count": 50
+                },
+                "@content": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            }
+        },
+        "skilldata": {
+            "skill": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    561756
+                ]
+            },
+            "all_skill": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    3311670
+                ]
+            },
+            "exist": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 25
+                },
+                "@content": [
+                    2682,
+                    2829,
+                    2843,
+                    2903,
+                    2988,
+                    2713,
+                    2811,
+                    814,
+                    754,
+                    1106,
+                    2814,
+                    2994,
+                    2870,
+                    2692,
+                    2778,
+                    2834,
+                    2804,
+                    1224,
+                    2983,
+                    2721,
+                    2696,
+                    2854,
+                    2801,
+                    1413,
+                    901
+                ]
+            },
+            "new": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 25
+                },
+                "@content": [
+                    2408,
+                    2502,
+                    1917,
+                    2495,
+                    920,
+                    2147,
+                    2795,
+                    1903,
+                    800,
+                    808,
+                    902,
+                    1926,
+                    1717,
+                    1516,
+                    2458,
+                    822,
+                    2627,
+                    1987,
+                    1613,
+                    2212,
+                    1711,
+                    2069,
+                    2523,
+                    1846,
+                    2592
+                ]
+            }
+        },
+        "groove": {
+            "extra_gauge": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    100
+                ]
+            },
+            "encore_gauge": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    3
+                ]
+            },
+            "encore_cnt": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    2
+                ]
+            },
+            "encore_success": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "unlock_point": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            }
+        },
+        "record": {
+            "max": {
+                "skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        561756
+                    ]
+                },
+                "all_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        3311670
+                    ]
+                },
+                "clear_diff": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        895
+                    ]
+                },
+                "full_diff": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        625
+                    ]
+                },
+                "exce_diff": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "clear_music_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        343
+                    ]
+                },
+                "full_music_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        4
+                    ]
+                },
+                "exce_music_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "clear_seq_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        363
+                    ]
+                },
+                "classic_all_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        47522
+                    ]
+                }
+            },
+            "diff": {
+                "diff_100_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        93
+                    ]
+                },
+                "diff_150_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        219
+                    ]
+                },
+                "diff_200_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        374
+                    ]
+                },
+                "diff_250_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        455
+                    ]
+                },
+                "diff_300_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        509
+                    ]
+                },
+                "diff_350_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        399
+                    ]
+                },
+                "diff_400_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        426
+                    ]
+                },
+                "diff_450_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        506
+                    ]
+                },
+                "diff_500_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        460
+                    ]
+                },
+                "diff_550_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        550
+                    ]
+                },
+                "diff_600_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        512
+                    ]
+                },
+                "diff_650_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        498
+                    ]
+                },
+                "diff_700_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        467
+                    ]
+                },
+                "diff_750_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        396
+                    ]
+                },
+                "diff_800_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        407
+                    ]
+                },
+                "diff_850_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        305
+                    ]
+                },
+                "diff_900_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        263
+                    ]
+                },
+                "diff_950_nr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        158
+                    ]
+                },
+                "diff_100_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_150_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_200_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_250_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_300_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_350_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_400_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_450_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        1
+                    ]
+                },
+                "diff_500_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        4,
+                        7,
+                        0
+                    ]
+                },
+                "diff_550_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        1,
+                        1,
+                        6,
+                        27,
+                        0
+                    ]
+                },
+                "diff_600_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        1,
+                        11,
+                        35,
+                        54,
+                        1
+                    ]
+                },
+                "diff_650_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        4,
+                        19,
+                        38,
+                        33,
+                        0
+                    ]
+                },
+                "diff_700_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        7,
+                        33,
+                        26,
+                        3,
+                        0
+                    ]
+                },
+                "diff_750_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        7,
+                        12,
+                        9,
+                        4,
+                        0
+                    ]
+                },
+                "diff_800_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        5,
+                        6,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_850_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        5,
+                        1,
+                        1,
+                        0,
+                        0
+                    ]
+                },
+                "diff_900_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "diff_950_clear": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 7
+                    },
+                    "@content": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                }
+            }
+        },
+        "battledata": {
+            "info": {
+                "orb": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "get_gb_point": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "send_gb_point": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                }
+            },
+            "setting": {
+                "matching": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "info_level": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                }
+            },
+            "score": {
+                "battle_class": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "max_battle_class": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "battle_point": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "win": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "lose": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "draw": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "consecutive_win": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "max_consecutive_win": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "glorious_win": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "max_defeat_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "latest_result": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                }
+            }
+        },
+        "sessiondata": {
+            "date_ms": {
+                "@attr": {
+                    "__type": "u64"
+                },
+                "@content": [
+                    "31536000n"
+                ]
+            },
+            "member": {
+                "gf1": {
+                    "did": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            13376666
+                        ]
+                    }
+                },
+                "gf2": {
+                    "did": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            -1
+                        ]
+                    }
+                },
+                "dm": {
+                    "did": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            13376666
+                        ]
+                    }
+                }
+            }
+        },
+        "favoritemusic": {
+            "music_list_1": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 100
+                },
+                "@content": [
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1
+                ]
+            },
+            "music_list_2": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 100
+                },
+                "@content": [
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1
+                ]
+            },
+            "music_list_3": {
+                "@attr": {
+                    "__type": "s32",
+                    "__count": 100
+                },
+                "@content": [
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1,
+                    -1
+                ]
+            }
+        },
+        "skindata": {
+            "skin": {
+                "@attr": {
+                    "__type": "u32",
+                    "__count": 100
+                },
+                "@content": [
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295,
+                    4294967295
+                ]
+            }
+        },
+        "deluxe": {
+            "deluxe_content": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "target_id": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "multiply": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "point": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            }
+        },
+        "galaxy_parade": {
+            "score_list": {
+                "score": {
+                    "corner_id": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    },
+                    "reward_id": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    },
+                    "unlock_point": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    },
+                    "is_clear": {
+                        "@attr": {
+                            "__type": "bool"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    }
+                }
+            },
+            "last_corner_id": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "last_sort_category": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "last_sort_order": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "team_member": {
+                "chara_id_guitar": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "chara_id_bass": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "chara_id_drum": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "chara_id_free1": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "chara_id_free2": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                }
+            },
+            "chara_list": {}
+        },
+        "live2d_chara_list": {
+            "live2d_chara": [
+                {
+                    "chara_id": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            1
+                        ]
+                    },
+                    "get_date_ms": {
+                        "@attr": {
+                            "__type": "u64"
+                        },
+                        "@content": [
+                            "31536000n"
+                        ]
+                    },
+                    "disp_monitor": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    },
+                    "set_date_ms": {
+                        "@attr": {
+                            "__type": "u64"
+                        },
+                        "@content": [
+                            "0n"
+                        ]
+                    }
+                },
+                {
+                    "chara_id": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            2
+                        ]
+                    },
+                    "get_date_ms": {
+                        "@attr": {
+                            "__type": "u64"
+                        },
+                        "@content": [
+                            "31536000n"
+                        ]
+                    },
+                    "disp_monitor": {
+                        "@attr": {
+                            "__type": "s32"
+                        },
+                        "@content": [
+                            0
+                        ]
+                    },
+                    "set_date_ms": {
+                        "@attr": {
+                            "__type": "u64"
+                        },
+                        "@content": [
+                            "1786114673480n"
+                        ]
+                    }
+                }
+            ]
+        },
+        "stage": [
+            {
+                "date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786114607558n"
+                    ]
+                },
+                "stage_no": {
+                    "@attr": {
+                        "__type": "u8"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "musicid": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2083
+                    ]
+                },
+                "seq": {
+                    "@attr": {
+                        "__type": "u16"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        10120
+                    ]
+                },
+                "new_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        10120
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "auto_clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "fullcombo": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "excellent": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "medal": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        -1
+                    ]
+                },
+                "perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8505
+                    ]
+                },
+                "new_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8505
+                    ]
+                },
+                "rank": {
+                    "@attr": {
+                        "__type": "s8"
+                    },
+                    "@content": [
+                        5
+                    ]
+                },
+                "score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        817303
+                    ]
+                },
+                "combo": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        462
+                    ]
+                },
+                "max_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        62
+                    ]
+                },
+                "flags": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        134217728
+                    ]
+                },
+                "phrase_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        50
+                    ]
+                },
+                "perfect": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        626
+                    ]
+                },
+                "great": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        95
+                    ]
+                },
+                "good": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        9
+                    ]
+                },
+                "ok": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "miss": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        4
+                    ]
+                },
+                "fast": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        33
+                    ]
+                },
+                "slow": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        73
+                    ]
+                },
+                "perfect_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        85
+                    ]
+                },
+                "great_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        13
+                    ]
+                },
+                "good_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "ok_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "miss_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "18409588277272117247n"
+                    ]
+                },
+                "meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        64
+                    ]
+                },
+                "before_meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "0n"
+                    ]
+                },
+                "before_meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "is_new_meter": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "phrase_data_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6
+                    ]
+                },
+                "phrase_addr": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        0,
+                        9166,
+                        12722,
+                        19833,
+                        23388,
+                        26944,
+                        33738,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_type": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        9,
+                        2,
+                        3,
+                        4,
+                        5,
+                        10,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_status": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        2,
+                        2,
+                        2,
+                        1,
+                        1,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_end_addr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        33738
+                    ]
+                },
+                "session": {
+                    "total": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                15883
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                163
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                684
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9945
+                            ]
+                        }
+                    },
+                    "gf1": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                7378
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                78
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                190
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                4945
+                            ]
+                        }
+                    },
+                    "gf2": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        }
+                    },
+                    "dm": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                8505
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                85
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                494
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                5000
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786114800907n"
+                    ]
+                },
+                "stage_no": {
+                    "@attr": {
+                        "__type": "u8"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "musicid": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2080
+                    ]
+                },
+                "seq": {
+                    "@attr": {
+                        "__type": "u16"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        9311
+                    ]
+                },
+                "new_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        9311
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "auto_clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "fullcombo": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "excellent": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "medal": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        -1
+                    ]
+                },
+                "perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8314
+                    ]
+                },
+                "new_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8314
+                    ]
+                },
+                "rank": {
+                    "@attr": {
+                        "__type": "s8"
+                    },
+                    "@content": [
+                        5
+                    ]
+                },
+                "score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        746604
+                    ]
+                },
+                "combo": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        204
+                    ]
+                },
+                "max_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        41
+                    ]
+                },
+                "flags": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        134217728
+                    ]
+                },
+                "phrase_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        57
+                    ]
+                },
+                "perfect": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        410
+                    ]
+                },
+                "great": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        55
+                    ]
+                },
+                "good": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        16
+                    ]
+                },
+                "ok": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "miss": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        4
+                    ]
+                },
+                "fast": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        16
+                    ]
+                },
+                "slow": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        59
+                    ]
+                },
+                "perfect_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        84
+                    ]
+                },
+                "great_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        11
+                    ]
+                },
+                "good_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "ok_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "miss_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "18446744039349811167n"
+                    ]
+                },
+                "meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        64
+                    ]
+                },
+                "before_meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "0n"
+                    ]
+                },
+                "before_meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "is_new_meter": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "phrase_data_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        7
+                    ]
+                },
+                "phrase_addr": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        0,
+                        3580,
+                        9944,
+                        13127,
+                        16309,
+                        19889,
+                        20685,
+                        27891,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_type": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        1,
+                        9,
+                        2,
+                        3,
+                        10,
+                        4,
+                        11,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_status": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        1,
+                        1,
+                        2,
+                        1,
+                        2,
+                        2,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_end_addr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        27891
+                    ]
+                },
+                "session": {
+                    "total": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                14457
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                140
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                445
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9433
+                            ]
+                        }
+                    },
+                    "gf1": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                6143
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                56
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                117
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                4433
+                            ]
+                        }
+                    },
+                    "gf2": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        }
+                    },
+                    "dm": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                8314
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                84
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                328
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                5000
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786115047189n"
+                    ]
+                },
+                "stage_no": {
+                    "@attr": {
+                        "__type": "u8"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "musicid": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2061
+                    ]
+                },
+                "seq": {
+                    "@attr": {
+                        "__type": "u16"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        10527
+                    ]
+                },
+                "new_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        10527
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "auto_clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "fullcombo": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "excellent": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "medal": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        -1
+                    ]
+                },
+                "perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8289
+                    ]
+                },
+                "new_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8289
+                    ]
+                },
+                "rank": {
+                    "@attr": {
+                        "__type": "s8"
+                    },
+                    "@content": [
+                        5
+                    ]
+                },
+                "score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        748182
+                    ]
+                },
+                "combo": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        314
+                    ]
+                },
+                "max_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        40
+                    ]
+                },
+                "flags": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        134217728
+                    ]
+                },
+                "phrase_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        66
+                    ]
+                },
+                "perfect": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        630
+                    ]
+                },
+                "great": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        108
+                    ]
+                },
+                "good": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        26
+                    ]
+                },
+                "ok": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "miss": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6
+                    ]
+                },
+                "fast": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        81
+                    ]
+                },
+                "slow": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        55
+                    ]
+                },
+                "perfect_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        81
+                    ]
+                },
+                "great_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        14
+                    ]
+                },
+                "good_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        4
+                    ]
+                },
+                "ok_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "miss_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "18446461499221041151n"
+                    ]
+                },
+                "meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        64
+                    ]
+                },
+                "before_meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "0n"
+                    ]
+                },
+                "before_meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "is_new_meter": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "phrase_data_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6
+                    ]
+                },
+                "phrase_addr": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        0,
+                        5538,
+                        9566,
+                        13594,
+                        18126,
+                        27188,
+                        31109,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_type": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        9,
+                        2,
+                        3,
+                        4,
+                        10,
+                        15,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_status": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        2,
+                        1,
+                        2,
+                        2,
+                        1,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_end_addr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        31109
+                    ]
+                },
+                "session": {
+                    "total": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                15496
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                153
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                509
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9846
+                            ]
+                        }
+                    },
+                    "gf1": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                7207
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                72
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                39
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                4846
+                            ]
+                        }
+                    },
+                    "gf2": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        }
+                    },
+                    "dm": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                8289
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                81
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                470
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                5000
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786115225821n"
+                    ]
+                },
+                "stage_no": {
+                    "@attr": {
+                        "__type": "u8"
+                    },
+                    "@content": [
+                        21
+                    ]
+                },
+                "musicid": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2431
+                    ]
+                },
+                "seq": {
+                    "@attr": {
+                        "__type": "u16"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8828
+                    ]
+                },
+                "new_skill": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        293
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "auto_clear": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "fullcombo": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "excellent": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "medal": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        -1
+                    ]
+                },
+                "perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6844
+                    ]
+                },
+                "new_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        227
+                    ]
+                },
+                "rank": {
+                    "@attr": {
+                        "__type": "s8"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        365394
+                    ]
+                },
+                "combo": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        68
+                    ]
+                },
+                "max_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8
+                    ]
+                },
+                "flags": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        134217728
+                    ]
+                },
+                "phrase_combo_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        14
+                    ]
+                },
+                "perfect": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        542
+                    ]
+                },
+                "great": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        172
+                    ]
+                },
+                "good": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        40
+                    ]
+                },
+                "ok": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6
+                    ]
+                },
+                "miss": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        22
+                    ]
+                },
+                "fast": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        50
+                    ]
+                },
+                "slow": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        168
+                    ]
+                },
+                "perfect_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        69
+                    ]
+                },
+                "great_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        22
+                    ]
+                },
+                "good_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        5
+                    ]
+                },
+                "ok_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "miss_perc": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "18304361420872727487n"
+                    ]
+                },
+                "meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        64
+                    ]
+                },
+                "before_meter": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "18044418526944411199n"
+                    ]
+                },
+                "before_meter_prog": {
+                    "@attr": {
+                        "__type": "s16"
+                    },
+                    "@content": [
+                        64
+                    ]
+                },
+                "is_new_meter": {
+                    "@attr": {
+                        "__type": "bool"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "phrase_data_num": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        7
+                    ]
+                },
+                "phrase_addr": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        0,
+                        2964,
+                        6352,
+                        8047,
+                        14823,
+                        18635,
+                        25411,
+                        27176,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_type": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        1,
+                        9,
+                        2,
+                        3,
+                        4,
+                        10,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_status": {
+                    "@attr": {
+                        "__type": "s32",
+                        "__count": 17
+                    },
+                    "@content": [
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        1,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                "phrase_end_addr": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        27176
+                    ]
+                },
+                "session": {
+                    "total": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9819
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                100
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                4334
+                            ]
+                        }
+                    },
+                    "gf1": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                2975
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                31
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                1361
+                            ]
+                        }
+                    },
+                    "gf2": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                0
+                            ]
+                        }
+                    },
+                    "dm": {
+                        "perc": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                6844
+                            ]
+                        },
+                        "perfect": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                69
+                            ]
+                        },
+                        "combo": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                9
+                            ]
+                        },
+                        "synchro_meter": {
+                            "@attr": {
+                                "__type": "s32"
+                            },
+                            "@content": [
+                                2973
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "stage_analyze": [
+            {
+                "play_date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786114607558n"
+                    ]
+                },
+                "customer": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "AXUSR"
+                },
+                "model": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32"
+                },
+                "softcode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32:J:D:A:2025122301"
+                },
+                "ref_id": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "A59A6D749842E3B8"
+                },
+                "language": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "JAPANESE"
+                },
+                "play_mode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "Standard"
+                },
+                "play_type": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "stage": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        1
+                    ]
+                },
+                "music_select_total_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_select_used_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        51
+                    ]
+                },
+                "music_select_remain_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_category": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "VERSION"
+                },
+                "music_id": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2083
+                    ]
+                },
+                "fumen_type": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "DRUM EXTREME"
+                },
+                "difficulty": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        595
+                    ]
+                },
+                "score_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        81
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "raw_score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        817303
+                    ]
+                },
+                "skill_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8505
+                    ]
+                }
+            },
+            {
+                "play_date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786114800907n"
+                    ]
+                },
+                "customer": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "AXUSR"
+                },
+                "model": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32"
+                },
+                "softcode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32:J:D:A:2025122301"
+                },
+                "ref_id": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "A59A6D749842E3B8"
+                },
+                "language": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "JAPANESE"
+                },
+                "play_mode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "Standard"
+                },
+                "play_type": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "stage": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "music_select_total_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_select_used_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        60
+                    ]
+                },
+                "music_select_remain_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_category": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "VERSION"
+                },
+                "music_id": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2080
+                    ]
+                },
+                "fumen_type": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "DRUM ADVANCED"
+                },
+                "difficulty": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        560
+                    ]
+                },
+                "score_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        74
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "raw_score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        746604
+                    ]
+                },
+                "skill_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8314
+                    ]
+                }
+            },
+            {
+                "play_date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786115047189n"
+                    ]
+                },
+                "customer": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "AXUSR"
+                },
+                "model": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32"
+                },
+                "softcode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32:J:D:A:2025122301"
+                },
+                "ref_id": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "A59A6D749842E3B8"
+                },
+                "language": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "JAPANESE"
+                },
+                "play_mode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "Standard"
+                },
+                "play_type": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "stage": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        3
+                    ]
+                },
+                "music_select_total_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_select_used_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        104
+                    ]
+                },
+                "music_select_remain_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_category": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "VERSION"
+                },
+                "music_id": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2061
+                    ]
+                },
+                "fumen_type": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "DRUM EXTREME"
+                },
+                "difficulty": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        635
+                    ]
+                },
+                "score_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        74
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "raw_score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        748182
+                    ]
+                },
+                "skill_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        8289
+                    ]
+                }
+            },
+            {
+                "play_date_ms": {
+                    "@attr": {
+                        "__type": "u64"
+                    },
+                    "@content": [
+                        "1786115225821n"
+                    ]
+                },
+                "customer": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "AXUSR"
+                },
+                "model": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32"
+                },
+                "softcode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "M32:J:D:A:2025122301"
+                },
+                "ref_id": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "A59A6D749842E3B8"
+                },
+                "language": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "JAPANESE"
+                },
+                "play_mode": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "Standard"
+                },
+                "play_type": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        0
+                    ]
+                },
+                "stage": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        4
+                    ]
+                },
+                "music_select_total_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_select_used_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        52
+                    ]
+                },
+                "music_select_remain_time": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        99
+                    ]
+                },
+                "music_category": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "VERSION"
+                },
+                "music_id": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2431
+                    ]
+                },
+                "fumen_type": {
+                    "@attr": {
+                        "__type": "str"
+                    },
+                    "@content": "DRUM EXTREME"
+                },
+                "difficulty": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        645
+                    ]
+                },
+                "score_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        36
+                    ]
+                },
+                "clear": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        2
+                    ]
+                },
+                "raw_score": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        365394
+                    ]
+                },
+                "skill_rate": {
+                    "@attr": {
+                        "__type": "s32"
+                    },
+                    "@content": [
+                        6844
+                    ]
+                }
+            }
+        ],
+        "usefulticket": {
+            "top_web_ticket": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            },
+            "end_web_ticket": {
+                "@attr": {
+                    "__type": "s32"
+                },
+                "@content": [
+                    0
+                ]
+            }
+        }
+    }
+}
